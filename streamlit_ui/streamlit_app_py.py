@@ -65,3 +65,7 @@ if st.button("🔍 Predict Loan Default"):
         st.error(f"Error: {e}")
 
 
+if __name__ == "__main__":
+    st.set_page_config(page_title="Loan Default Predictor", layout="wide")
+    st.markdown("<style>footer{visibility: hidden;}</style>", unsafe_allow_html=True)
+
