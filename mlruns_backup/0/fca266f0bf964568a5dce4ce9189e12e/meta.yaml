@@ -1,0 +1,14 @@
+artifact_uri: file:///content/mlruns/0/fca266f0bf964568a5dce4ce9189e12e/artifacts
+end_time: 1750913639877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fca266f0bf964568a5dce4ce9189e12e
+run_name: honorable-mink-268
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750913583872
+status: 3
+tags: []
+user_id: root
