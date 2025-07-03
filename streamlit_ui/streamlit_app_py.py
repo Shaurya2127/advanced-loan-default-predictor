@@ -40,7 +40,8 @@ input_data = {
 
 if st.button("🔍 Predict Loan Default"):
     try:
-        response = requests.post(url="http://127.0.0.1:5000/predict", json=input_data)
+        API_URL = "http://127.0.0.1:5000/predict"
+        response = requests.post(API_URL, json=input_data)
         if response.status_code == 200:
             result = response.json()
             prediction = result['prediction']
